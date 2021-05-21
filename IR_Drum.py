@@ -1,6 +1,6 @@
 import pynput
 with pynput.mouse.Events() as event:
-
+ 
     for i in event:
     #迭代用法。
         if isinstance(i, pynput.mouse.Events.Move):
